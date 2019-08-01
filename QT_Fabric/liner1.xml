@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Camera_Interface_Application version="4.0">
+  <camera name="" type="Standard CameraLink Camera" mac="00-11-1C-01-3C-07">
+    <connectivity>
+      <answer_timeout id="2">1000</answer_timeout>
+      <first_packet_timeout id="3">0</first_packet_timeout>
+      <packet_timeout id="4">500</packet_timeout>
+      <request_timeout id="5">5000</request_timeout>
+      <packet_size id="6">1440</packet_size>
+      <command_retry_count id="7">3</command_retry_count>
+      <access_mode id="8" value="iPORT Protocol over Network Stack">1</access_mode>
+      <adapter_id id="9">D0:94:66:F2:F0:29</adapter_id>
+      <ip_address id="10">[169.254.100.10]</ip_address>
+      <subnet_mask id="19"></subnet_mask>
+      <gateway id="20"></gateway>
+      <mac_address id="11">00-11-1C-01-3C-07</mac_address>
+      <device_name id="12"></device_name>
+      <device_type id="13">Standard CameraLink Camera</device_type>
+      <heartbeat_interval id="14">0</heartbeat_interval>
+      <heartbeat_expiration id="15">0</heartbeat_expiration>
+      <data_sending_mode id="16" value="Unicast">0</data_sending_mode>
+      <data_sending_mode_master id="17">true</data_sending_mode_master>
+      <data_sending_mode_address id="18"></data_sending_mode_address>
+    </connectivity>
+    <ip_engine>
+      <ip_engine_device_name id="16"></ip_engine_device_name>
+      <camera_type id="17">Standard CameraLink Camera</camera_type>
+      <ip_engine_communication_mode id="15" value="iPORT Protocol over Network Stack">1</ip_engine_communication_mode>
+      <mac_address_nic id="12">D0:94:66:F2:F0:29</mac_address_nic>
+      <mac_address_ip_engine id="14">00-11-1C-01-3C-07</mac_address_ip_engine>
+      <ip_address id="13">[169.254.100.10]</ip_address>
+      <subnet_mask id="36"></subnet_mask>
+      <gateway id="37"></gateway>
+      <network_stack_udp_command_port id="32">0</network_stack_udp_command_port>
+      <network_stack_udp_interrupt_port id="33">0</network_stack_udp_interrupt_port>
+      <network_stack_udp_data_port id="34">0</network_stack_udp_data_port>
+      <data_sending_mode id="23" value="Unicast">0</data_sending_mode>
+      <data_sending_mode_master id="24">true</data_sending_mode_master>
+      <data_sending_mode_address id="25"></data_sending_mode_address>
+      <multicast_master_joins_group id="35">true</multicast_master_joins_group>
+      <answer_timeout_ms id="6">1000</answer_timeout_ms>
+      <first_packet_timeout_ms id="7">0</first_packet_timeout_ms>
+      <packet_timeout_ms id="8">500</packet_timeout_ms>
+      <request_timeout_ms id="9">5000</request_timeout_ms>
+      <automatic_packet_size id="38">true</automatic_packet_size>
+      <packet_size id="11">1440</packet_size>
+      <command_retry_count id="10">3</command_retry_count>
+      <enable_heartbeat id="19">0</enable_heartbeat>
+      <heartbeat_interval_ms id="20">0</heartbeat_interval_ms>
+      <heartbeat_expiration_ms id="21">0</heartbeat_expiration_ms>
+      <receiveanswer_behavior id="28" value="2.1.x behaviour">0</receiveanswer_behavior>
+      <emit_test_pattern_-_channel_0 id="27">false</emit_test_pattern_-_channel_0>
+      <emit_test_pattern_-_channel_1 id="30">false</emit_test_pattern_-_channel_1>
+      <ip_engine_extensions>
+        <flow_control id="4103">
+          <inter_packet_delay id="0">0</inter_packet_delay>
+        </flow_control>
+        <signal_routing_block_and_lookup_table id="4096" group="Programmable Logic Controller">
+          <i0 id="0" value="TTL Input 0">0</i0>
+          <i1 id="1" value="TTL Input 1">0</i1>
+          <i2 id="2" value="TTL Input 2">0</i2>
+          <i3 id="3" value="TTL Input 3">0</i3>
+          <i4 id="4" value="GPIO Control Bit 1">0</i4>
+          <i5 id="5" value="GPIO Control Bit 0">0</i5>
+          <i6 id="6" value="Pulse Generator 1 Output">0</i6>
+          <i7 id="7" value="Pulse Generator 0 Output">0</i7>
+          <lookup_table id="8"></lookup_table>
+        </signal_routing_block_and_lookup_table>
+        <pulse_generator_0 id="0" group="Programmable Logic Controller;Enhanced Function Block">
+          <width_high id="0">4096</width_high>
+          <delay_low id="1">1024</delay_low>
+          <granularity_factor id="2">0</granularity_factor>
+          <emit_periodic_pulse id="3">false</emit_periodic_pulse>
+          <trigger_mode id="4" value="Triggered on rising edge">0</trigger_mode>
+        </pulse_generator_0>
+        <pulse_generator_1 id="1" group="Programmable Logic Controller;Enhanced Function Block">
+          <width_high id="0">4096</width_high>
+          <delay_low id="1">1024</delay_low>
+          <granularity_factor id="2">0</granularity_factor>
+          <emit_periodic_pulse id="3">false</emit_periodic_pulse>
+          <trigger_mode id="4" value="Triggered on rising edge">0</trigger_mode>
+        </pulse_generator_1>
+        <pulse_generator_2 id="2" group="Programmable Logic Controller;Enhanced Function Block">
+          <width_high id="0">4096</width_high>
+          <delay_low id="1">1024</delay_low>
+          <granularity_factor id="2">0</granularity_factor>
+          <emit_periodic_pulse id="3">false</emit_periodic_pulse>
+          <trigger_mode id="4" value="Triggered on rising edge">0</trigger_mode>
+        </pulse_generator_2>
+        <pulse_generator_3 id="3" group="Programmable Logic Controller;Enhanced Function Block">
+          <width_high id="0">4096</width_high>
+          <delay_low id="1">1024</delay_low>
+          <granularity_factor id="2">0</granularity_factor>
+          <emit_periodic_pulse id="3">false</emit_periodic_pulse>
+          <trigger_mode id="4" value="Triggered on rising edge">0</trigger_mode>
+        </pulse_generator_3>
+        <rescaler_0 id="16" group="Programmable Logic Controller;Enhanced Function Block">
+          <granularity id="0" value="1 PCI clock cycle">0</granularity>
+          <multiplier id="1" value="Frequency X 256">0</multiplier>
+          <divider id="2">256</divider>
+          <input_signal id="3" value="Q3">0</input_signal>
+          <backup_enabled id="4">false</backup_enabled>
+          <backup_switchover_delay id="5">0</backup_switchover_delay>
+          <backup_input_signal id="6" value="Pulse Generator #0">0</backup_input_signal>
+        </rescaler_0>
+        <delayer_0 id="48" group="Programmable Logic Controller;Enhanced Function Block">
+          <delay_count id="0">1</delay_count>
+          <reference_timing_signal id="1" value="Rescaler output">0</reference_timing_signal>
+          <input_signal id="2" value="Q3">0</input_signal>
+        </delayer_0>
+        <counter_0 id="32" group="Programmable Logic Controller;Enhanced Function Block">
+          <increment_trigger_mode id="0" value="Disabled">0</increment_trigger_mode>
+          <decrement_trigger_mode id="1" value="Disabled">0</decrement_trigger_mode>
+          <clear_trigger_mode id="2" value="Disabled">0</clear_trigger_mode>
+          <clear_signal id="3" value="Q3">0</clear_signal>
+          <compare_value id="4">0</compare_value>
+        </counter_0>
+        <input_debouncing_block id="4097" group="Programmable Logic Controller">
+          <a0_hold_value id="0">0</a0_hold_value>
+          <a1_hold_value id="1">0</a1_hold_value>
+          <a2_hold_value id="2">0</a2_hold_value>
+          <a3_hold_value id="3">0</a3_hold_value>
+        </input_debouncing_block>
+        <plc_special_configurations id="4098" group="Programmable Logic Controller">
+          <input_0_configuration id="0" value="0">0</input_0_configuration>
+          <input_1_configuration id="1" value="TTL_IN1 is an input to GPIO Control Block.">0</input_1_configuration>
+          <input_2_configuration id="2" value="0">0</input_2_configuration>
+          <input_3_configuration id="3" value="0">0</input_3_configuration>
+          <output_0_configuration id="4" value="0">0</output_0_configuration>
+          <output_1_configuration id="5" value="TTL_OUT1 is an output from the GPIO Control Block.">0</output_1_configuration>
+          <output_2_configuration id="6" value="0">0</output_2_configuration>
+          <output_3_configuration id="7" value="0">0</output_3_configuration>
+          <plc_synchronization_mode id="8" value="Synchronizes GPIO inputs used 2 flip-flops">0</plc_synchronization_mode>
+          <cc1_configuration id="9" value="0">0</cc1_configuration>
+          <cc2_configuration id="10" value="0">0</cc2_configuration>
+          <cc3_configuration id="11" value="0">0</cc3_configuration>
+          <cc4_configuration id="12" value="0">0</cc4_configuration>
+        </plc_special_configurations>
+        <timestamp_counter id="4099" group="Programmable Logic Controller;Enhanced Function Block">
+          <counter_select id="5" value="Timestamp Counter (default)">0</counter_select>
+          <granularity id="0" value="480 nanoseconds">0</granularity>
+          <set_trigger_mode id="1" value="Disabled">0</set_trigger_mode>
+          <set_input_signal id="2" value="Q3">0</set_input_signal>
+          <clear_trigger_mode id="3" value="Disabled">0</clear_trigger_mode>
+          <clear_input_signal id="4" value="Q3">0</clear_input_signal>
+        </timestamp_counter>
+        <plc_interrupts id="4102" group="Programmable Logic Controller">
+          <q15_enabled id="0">true</q15_enabled>
+          <q3_enabled id="1">false</q3_enabled>
+          <q7_enabled id="2">false</q7_enabled>
+          <q10_enabled id="3">false</q10_enabled>
+        </plc_interrupts>
+      </ip_engine_extensions>
+    </ip_engine>
+    <grabber>
+      <pixel_type_channel_0 id="48">65537</pixel_type_channel_0>
+      <interlaced_inversion_channel_0 id="52">false</interlaced_inversion_channel_0>
+      <starting_bayer_flag_channel_0 id="49">16</starting_bayer_flag_channel_0>
+      <adjust_bayer_flag_with_offsets_channel_0 id="50">0</adjust_bayer_flag_with_offsets_channel_0>
+      <conversion_flags_channel_0 id="51">16</conversion_flags_channel_0>
+      <size_x_channel_0 id="0">2048</size_x_channel_0>
+      <size_y_channel_0 id="1">1080</size_y_channel_0>
+      <offset_x_channel_0 id="4">0</offset_x_channel_0>
+      <offset_y_channel_0 id="5">0</offset_y_channel_0>
+      <undefined_size_x_channel_0 id="2">false</undefined_size_x_channel_0>
+      <undefined_size_y_channel_0 id="3">false</undefined_size_y_channel_0>
+      <decimation_x_channel_0 id="6">1</decimation_x_channel_0>
+      <decimation_y_channel_0 id="7">1</decimation_y_channel_0>
+      <decimation_block_x_channel_0 id="8">1</decimation_block_x_channel_0>
+      <decimation_block_y_channel_0 id="9">1</decimation_block_y_channel_0>
+      <pixel_depth_channel_0 id="10">8</pixel_depth_channel_0>
+      <tap_quantity_channel_0 id="11">1</tap_quantity_channel_0>
+      <line_scan_channel_0 id="13">true</line_scan_channel_0>
+      <rgb_enabled_channel_0 id="12">false</rgb_enabled_channel_0>
+      <interlaced_channel_0 id="14">false</interlaced_channel_0>
+      <normalized_channel_0 id="15">false</normalized_channel_0>
+      <packed_channel_0 id="16">false</packed_channel_0>
+      <interlaced_field_mode_channel_0 id="17">0</interlaced_field_mode_channel_0>
+      <bad_image_passthrough_channel_0 id="20">false</bad_image_passthrough_channel_0>
+      <ignore_missing_packets_channel_0 id="21">false</ignore_missing_packets_channel_0>
+      <maximum_pending_requests_channel_0 id="22">32</maximum_pending_requests_channel_0>
+      <image_size_channel_0 id="32">4294967295</image_size_channel_0>
+      <force_single_shot_channel_0 id="64">false</force_single_shot_channel_0>
+      <frame_skip_channel_0 id="80">0</frame_skip_channel_0>
+      <pipe_count_channel_0 id="128" value="Two (default)">2</pipe_count_channel_0>
+      <grabbing_buffer_channel_0 id="256">0</grabbing_buffer_channel_0>
+      <grabbing_flags_channel_0 id="257">0</grabbing_flags_channel_0>
+      <insert_metadata_channel_0 id="18">false</insert_metadata_channel_0>
+      <water_level_channel_0 id="19" value="75 %">1</water_level_channel_0>
+      <pixel_shifting_channel_0 id="23">0</pixel_shifting_channel_0>
+      <pixel_inversion_channel_0 id="24">false</pixel_inversion_channel_0>
+      <port_mapping_channel_0 id="25" value="C B A (default)">0</port_mapping_channel_0>
+      <plc_trigger_channel_0 id="96">false</plc_trigger_channel_0>
+      <automatic_internal_retrigger_channel_0 id="112">false</automatic_internal_retrigger_channel_0>
+      <enable_hardware_tap_reconstruction_channel_0 id="36">false</enable_hardware_tap_reconstruction_channel_0>
+      <tap_reconstruction_segmented_channel_0 id="37">false</tap_reconstruction_segmented_channel_0>
+      <tap_reconstruction_time_multiplexed_channel_0 id="38">false</tap_reconstruction_time_multiplexed_channel_0>
+      <tap_reconstruction_taps_per_row_channel_0 id="39">1</tap_reconstruction_taps_per_row_channel_0>
+      <tap_reconstruction_taps_per_column_channel_0 id="40">1</tap_reconstruction_taps_per_column_channel_0>
+      <tap_reconstruction_sensor_width_channel_0 id="41">-1</tap_reconstruction_sensor_width_channel_0>
+      <tap_reconstruction_sensor_height_channel_0 id="42">-1</tap_reconstruction_sensor_height_channel_0>
+      <tap_right_to_left_channel_0_tap_0 id="144">false</tap_right_to_left_channel_0_tap_0>
+      <tap_bottom_to_top_channel_0_tap_0 id="160">false</tap_bottom_to_top_channel_0_tap_0>
+      <tap_right_to_left_channel_0_tap_1 id="145">false</tap_right_to_left_channel_0_tap_1>
+      <tap_bottom_to_top_channel_0_tap_1 id="161">false</tap_bottom_to_top_channel_0_tap_1>
+      <tap_right_to_left_channel_0_tap_2 id="146">false</tap_right_to_left_channel_0_tap_2>
+      <tap_bottom_to_top_channel_0_tap_2 id="162">false</tap_bottom_to_top_channel_0_tap_2>
+      <tap_right_to_left_channel_0_tap_3 id="147">false</tap_right_to_left_channel_0_tap_3>
+      <tap_bottom_to_top_channel_0_tap_3 id="163">false</tap_bottom_to_top_channel_0_tap_3>
+      <pixel_type_channel_1 id="65584">65537</pixel_type_channel_1>
+      <interlaced_inversion_channel_1 id="65588">false</interlaced_inversion_channel_1>
+      <starting_bayer_flag_channel_1 id="65585">16</starting_bayer_flag_channel_1>
+      <adjust_bayer_flag_with_offsets_channel_1 id="65586">0</adjust_bayer_flag_with_offsets_channel_1>
+      <conversion_flags_channel_1 id="65587">16</conversion_flags_channel_1>
+      <size_x_channel_1 id="65536">640</size_x_channel_1>
+      <size_y_channel_1 id="65537">480</size_y_channel_1>
+      <offset_x_channel_1 id="65540">0</offset_x_channel_1>
+      <offset_y_channel_1 id="65541">0</offset_y_channel_1>
+      <undefined_size_x_channel_1 id="65538">false</undefined_size_x_channel_1>
+      <undefined_size_y_channel_1 id="65539">false</undefined_size_y_channel_1>
+      <decimation_x_channel_1 id="65542">1</decimation_x_channel_1>
+      <decimation_y_channel_1 id="65543">1</decimation_y_channel_1>
+      <decimation_block_x_channel_1 id="65544">1</decimation_block_x_channel_1>
+      <decimation_block_y_channel_1 id="65545">1</decimation_block_y_channel_1>
+      <pixel_depth_channel_1 id="65546">8</pixel_depth_channel_1>
+      <tap_quantity_channel_1 id="65547">1</tap_quantity_channel_1>
+      <line_scan_channel_1 id="65549">false</line_scan_channel_1>
+      <rgb_enabled_channel_1 id="65548">false</rgb_enabled_channel_1>
+      <interlaced_channel_1 id="65550">false</interlaced_channel_1>
+      <normalized_channel_1 id="65551">false</normalized_channel_1>
+      <packed_channel_1 id="65552">false</packed_channel_1>
+      <interlaced_field_mode_channel_1 id="65553">0</interlaced_field_mode_channel_1>
+      <bad_image_passthrough_channel_1 id="65556">false</bad_image_passthrough_channel_1>
+      <ignore_missing_packets_channel_1 id="65557">false</ignore_missing_packets_channel_1>
+      <maximum_pending_requests_channel_1 id="65558">32</maximum_pending_requests_channel_1>
+      <image_size_channel_1 id="65568">4294967295</image_size_channel_1>
+      <force_single_shot_channel_1 id="65600">false</force_single_shot_channel_1>
+      <frame_skip_channel_1 id="65616">0</frame_skip_channel_1>
+      <pipe_count_channel_1 id="65664" value="Two (default)">2</pipe_count_channel_1>
+      <grabbing_buffer_channel_1 id="65792">0</grabbing_buffer_channel_1>
+      <grabbing_flags_channel_1 id="65793">0</grabbing_flags_channel_1>
+      <insert_metadata_channel_1 id="65554">false</insert_metadata_channel_1>
+      <water_level_channel_1 id="65555" value="75 %">1</water_level_channel_1>
+      <pixel_shifting_channel_1 id="65559">0</pixel_shifting_channel_1>
+      <pixel_inversion_channel_1 id="65560">false</pixel_inversion_channel_1>
+      <port_mapping_channel_1 id="65561" value="C B A (default)">0</port_mapping_channel_1>
+      <plc_trigger_channel_1 id="65632">false</plc_trigger_channel_1>
+      <automatic_internal_retrigger_channel_1 id="65648">false</automatic_internal_retrigger_channel_1>
+      <enable_hardware_tap_reconstruction_channel_1 id="65572">false</enable_hardware_tap_reconstruction_channel_1>
+      <tap_reconstruction_segmented_channel_1 id="65573">false</tap_reconstruction_segmented_channel_1>
+      <tap_reconstruction_time_multiplexed_channel_1 id="65574">false</tap_reconstruction_time_multiplexed_channel_1>
+      <tap_reconstruction_taps_per_row_channel_1 id="65575">1</tap_reconstruction_taps_per_row_channel_1>
+      <tap_reconstruction_taps_per_column_channel_1 id="65576">1</tap_reconstruction_taps_per_column_channel_1>
+      <tap_reconstruction_sensor_width_channel_1 id="65577">-1</tap_reconstruction_sensor_width_channel_1>
+      <tap_reconstruction_sensor_height_channel_1 id="65578">-1</tap_reconstruction_sensor_height_channel_1>
+      <tap_right_to_left_channel_1_tap_0 id="65680">false</tap_right_to_left_channel_1_tap_0>
+      <tap_bottom_to_top_channel_1_tap_0 id="65696">false</tap_bottom_to_top_channel_1_tap_0>
+      <tap_right_to_left_channel_1_tap_1 id="65681">false</tap_right_to_left_channel_1_tap_1>
+      <tap_bottom_to_top_channel_1_tap_1 id="65697">false</tap_bottom_to_top_channel_1_tap_1>
+      <tap_right_to_left_channel_1_tap_2 id="65682">false</tap_right_to_left_channel_1_tap_2>
+      <tap_bottom_to_top_channel_1_tap_2 id="65698">false</tap_bottom_to_top_channel_1_tap_2>
+      <tap_right_to_left_channel_1_tap_3 id="65683">false</tap_right_to_left_channel_1_tap_3>
+      <tap_bottom_to_top_channel_1_tap_3 id="65699">false</tap_bottom_to_top_channel_1_tap_3>
+      <grabber_extensions>
+        <camera_link id="0">
+          <serial_select id="0" value="UART0">1</serial_select>
+          <data_valid_enabled id="1">false</data_valid_enabled>
+          <data_valid_polarity id="2">false</data_valid_polarity>
+          <line_valid_polarity id="3">false</line_valid_polarity>
+          <frame_valid_polarity id="4">false</frame_valid_polarity>
+          <line_valid_edge_sensitive id="5">false</line_valid_edge_sensitive>
+          <frame_valid_edge_sensitive id="6">false</frame_valid_edge_sensitive>
+          <frame_valid_function_select id="8" value="FVAL from camera">0</frame_valid_function_select>
+          <line_valid_function_select id="9" value="LVAL from camera">0</line_valid_function_select>
+        </camera_link>
+        <grabber_metadata id="1">
+          <metadata_insertion_mode id="0" value="On the first 4-bytes of the first acquired line">0</metadata_insertion_mode>
+          <metadata_source_selection id="1" value="Image ID">0</metadata_source_selection>
+          <metadata_msb_override id="2" value="Not overriden">0</metadata_msb_override>
+        </grabber_metadata>
+      </grabber_extensions>
+    </grabber>
+    <camera_properties>
+      <size_x id="0">2048</size_x>
+      <size_y id="1">1080</size_y>
+      <offset_x id="2">0</offset_x>
+      <offset_y id="3">0</offset_y>
+      <decimation_x id="4">1</decimation_x>
+      <decimation_y id="5">1</decimation_y>
+      <decimation_block_x id="6">1</decimation_block_x>
+      <decimation_block_y id="7">1</decimation_block_y>
+      <binning_x id="8">1</binning_x>
+      <binning_y id="9">1</binning_y>
+      <pixel_type id="10" hex="0000000000010001" name="Grayscale8-bits">65537</pixel_type>
+      <tap_quantity id="11">1</tap_quantity>
+      <image_type id="12" value="Line Scan">0</image_type>
+      <synchronization_mode id="13" value="Free Run Programmable">0</synchronization_mode>
+      <exposure_time id="14">1</exposure_time>
+      <frame_rate id="15">0.100000</frame_rate>
+      <digital_shift id="16">0</digital_shift>
+      <test_pattern id="17">0</test_pattern>
+      <image_flip id="18">false</image_flip>
+      <black_level id="19">0</black_level>
+      <interlaced_inversion id="24">false</interlaced_inversion>
+      <starting_bayer_flag id="32">16</starting_bayer_flag>
+      <adjust_bayer_flag_with_offsets id="33">0</adjust_bayer_flag_with_offsets>
+      <rgb_filter_red_gain id="35">1.000000</rgb_filter_red_gain>
+      <rgb_filter_green_gain id="36">1.000000</rgb_filter_green_gain>
+      <rgb_filter_blue_gain id="37">1.000000</rgb_filter_blue_gain>
+      <rgb_filter_red_offset id="38">0</rgb_filter_red_offset>
+      <rgb_filter_green_offset id="39">0</rgb_filter_green_offset>
+      <rgb_filter_blue_offset id="40">0</rgb_filter_blue_offset>
+    </camera_properties>
+  </camera>
+</Camera_Interface_Application>
